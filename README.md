@@ -68,7 +68,7 @@ sequenceDiagram
     Alice->>+John: John, can you hear me?
     John-->>-Alice: Hi Alice, I can hear you!
     John-->>-Alice: I feel great!
-"```
+ ```
 `````
 
 <br>
@@ -352,6 +352,7 @@ pie title Pets adopted by volunteers
     "Rats" : 15
 
  ```
+
 ````
 
 <br>
