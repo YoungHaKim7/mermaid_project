@@ -1,5 +1,9 @@
 # mermaid_project
 
+## Visual Studio Code Extension(VSCode Extension)
+
+https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid
+
 ## Github repository
 
 https://github.com/mermaid-js/mermaid
@@ -44,6 +48,8 @@ graph TD
 
 <br>
 
+<hr>
+
 ## Sequence(Sample code)
 
 ```mermaid
@@ -66,4 +72,63 @@ sequenceDiagram
 "```
 ```
 
+<br>
+
 <hr>
+
+
+## Class(Sample code)
+
+```mermaid
+classDiagram
+    Animal <|-- Duck
+    Animal <|-- Fish
+    Animal <|-- Zebra
+    Animal : +int age
+    Animal : +String gender
+    Animal: +isMammal()
+    Animal: +mate()
+    class Duck{
+      +String beakColor
+      +swim()
+      +quack()
+    }
+    class Fish{
+      -int sizeInFeet
+      -canEat()
+    }
+    class Zebra{
+      +bool is_wild
+      +run()
+    }
+```
+
+
+```
+```mermaid
+
+
+classDiagram
+    Animal <|-- Duck
+    Animal <|-- Fish
+    Animal <|-- Zebra
+    Animal : +int age
+    Animal : +String gender
+    Animal: +isMammal()
+    Animal: +mate()
+    class Duck{
+      +String beakColor
+      +swim()
+      +quack()
+    }
+    class Fish{
+      -int sizeInFeet
+      -canEat()
+    }
+    class Zebra{
+      +bool is_wild
+      +run()
+    }
+
+"```
+```
