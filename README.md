@@ -9,6 +9,7 @@ https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid
 https://github.com/mermaid-js/mermaid
 
 ## Mermaid
+
 Diagramming and charting tool
 
 JavaScript based diagramming and charting tool that renders Markdown-inspired text definitions to create and modify diagrams dynamically.
@@ -19,7 +20,6 @@ https://mermaid.js.org/
 
 https://mermaid.live/edit
 
-
 ## Flow(Sample Code)
 
 ```mermaid
@@ -29,11 +29,10 @@ graph TD
     C -->|One| D[Laptop]
     C -->|Two| E[iPhone]
     C -->|Three| F[fa:fa-car Car]
-  
-```
-
 
 ```
+
+````
 ```mermaid
 graph TD
     A[Christmas] -->|Get money| B(Go shopping)
@@ -41,10 +40,10 @@ graph TD
     C -->|One| D[Laptop]
     C -->|Two| E[iPhone]
     C -->|Three| F[fa:fa-car Car]
-  
-"```
-```
 
+ ```
+
+````
 
 <br>
 
@@ -60,9 +59,9 @@ sequenceDiagram
     John-->>-Alice: I feel great!
 ```
 
+`````
 
-```
-```mermaid
+````mermaid
 
 sequenceDiagram
     Alice->>+John: Hello John, how are you?
@@ -70,14 +69,13 @@ sequenceDiagram
     John-->>-Alice: Hi Alice, I can hear you!
     John-->>-Alice: I feel great!
 "```
-```
+`````
 
 <br>
 
 <hr>
 
-
-## Sequence2_(Sample code)
+## Sequence2\_(Sample code)
 
 ```mermaid
 sequenceDiagram
@@ -94,8 +92,7 @@ sequenceDiagram
 
 ```
 
-
-```
+````
 ```mermaid
 
 sequenceDiagram
@@ -110,13 +107,12 @@ sequenceDiagram
   John-->>Bob: How about you?
   Bob-->John: Jolly good!
 
-"```
-```
+ ```
+````
 
 <br>
 
 <hr>
-
 
 ## Class(Sample code)
 
@@ -144,8 +140,7 @@ classDiagram
     }
 ```
 
-
-```
+````
 ```mermaid
 
 
@@ -171,8 +166,8 @@ classDiagram
       +run()
     }
 
-"```
-```
+ ```
+````
 
 <br>
 
@@ -190,7 +185,7 @@ stateDiagram-v2
     Crash --> [*]
 ```
 
-```
+````
 ```mermaid
 stateDiagram-v2
     [*] --> Still
@@ -200,8 +195,8 @@ stateDiagram-v2
     Moving --> Crash
     Crash --> [*]
 
-"```
-```
+ ```
+````
 
 <br>
 
@@ -221,7 +216,7 @@ erDiagram
     PRODUCT ||--o{ ORDER-ITEM : "ordered in"
 ```
 
-```
+````
 ```mermaid
 erDiagram
     CUSTOMER }|..|{ DELIVERY-ADDRESS : has
@@ -232,8 +227,8 @@ erDiagram
     ORDER ||--|{ ORDER-ITEM : includes
     PRODUCT-CATEGORY ||--|{ PRODUCT : contains
     PRODUCT ||--o{ ORDER-ITEM : "ordered in"
-"```
-```
+ ```
+````
 
 <br>
 
@@ -253,8 +248,7 @@ gantt
     another task      : 24d
 ```
 
-
-```
+````
 ```mermaid
 
     title A Gantt Diagram
@@ -266,8 +260,8 @@ gantt
     Task in sec      :2014-01-12  , 12d
     another task      : 24d
 
-"```
-```
+ ```
+````
 
 <br>
 
@@ -287,8 +281,7 @@ journey
       Sit down: 3: Me
 ```
 
-
-```
+````
 ```mermaid
 journey
     title My working day
@@ -300,9 +293,8 @@ journey
       Go downstairs: 5: Me
       Sit down: 3: Me
 
-"```
-```
-
+ ```
+````
 
 <br>
 
@@ -324,7 +316,7 @@ gitGraph
     commit
 ```
 
-```
+````
 ```mermaid
 
 gitGraph
@@ -339,8 +331,8 @@ gitGraph
     commit
     commit
 
-"```
-```
+ ```
+````
 
 ## Pie (Sample Code)
 
@@ -351,7 +343,7 @@ pie title Pets adopted by volunteers
     "Rats" : 15
 ```
 
-```
+````
 ```mermaid
 
 pie title Pets adopted by volunteers
@@ -359,10 +351,9 @@ pie title Pets adopted by volunteers
     "Cats" : 85
     "Rats" : 15
 
-"```
-```
+ ```
+````
 
 <br>
 
 <hr>
-
