@@ -324,13 +324,3 @@ pie title Pets adopted by volunteers
 <br>
 
 <hr>
-
-## Mindmap (Sample Code)
-
-
-```mermaid
-
-mindmap;
-  root((mindmap));
-
-```
