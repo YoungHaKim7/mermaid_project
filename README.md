@@ -1,6 +1,6 @@
 # 🎨 Diagram as Code for prototyping cloud system architectures
-[
-- diagrams.mingrammer.com](https://diagrams.mingrammer.com/)
+
+- [diagrams.mingrammer.com](https://diagrams.mingrammer.com/)
 
 - https://github.com/mingrammer/diagrams
 
