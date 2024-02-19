@@ -6,9 +6,9 @@
 
 - Doc https://diagrams.mingrammer.com/docs/getting-started/installation
 
-<img width="190px" src="https://diagrams.mingrammer.com/img/message_collecting_code.png" />
+<img align="space between" width="190px" src="https://diagrams.mingrammer.com/img/message_collecting_code.png" />
 
-<img width="190px" src="https://diagrams.mingrammer.com/img/message_collecting_diagram.png" />
+<img align="space between"  width="190px" src="https://diagrams.mingrammer.com/img/message_collecting_diagram.png" />
 
 <hr>
 
